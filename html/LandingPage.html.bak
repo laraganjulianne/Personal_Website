@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="author" content= "Julianne Laragan">
+	<link rel = "icon" href ="../images/jlogo.png" type = "image/x-icon">
+	<title>Landing Page</title>
+	<style type="text/css">
+		body {
+			background-image: url(../images/pink.png);
+            background-repeat: no-repeat;
+            background-size: cover; 
+            background-attachment: fixed;
+			margin: 0;
+			padding:0;
+		}
+		.nav ul {
+			list-style: none;
+			background: #3d1e52;
+			text-align:center;
+			padding:0;
+			margin:0;
+		}
+		.nav li {
+			display:inline-block;
+		}
+		.nav a {
+			text-decoration:none;
+			font-family: Helvetica, Verdana;
+			color:#b55c89;
+			width:105px;
+			display:block;
+			padding: 14px;
+			font-size: 15px;
+		}
+		.nav a:hover {
+			background: #6da5de;
+			transition: 0.4s;
+		}
+		h1 {
+			text-align:left;
+			padding: 40px;
+			color: #904a9e;
+			font-size: 60px;
+			font-family: Verdana,Georgia;
+		}
+		h2 {
+			text-align:center;
+			padding: 10px;
+			background-color: #7369d1; 
+			color: #e362c0;
+			font-size: 60px;
+			font-family: Verdana,Georgia;
+		}
+	
+		
+	</style>
+</head>
+<body>
+	<link rel="stylesheet" type="text/css">
+	<!--LARAGAN,JULIANNE GAYLE-->
+	<!--03/23/22-->
+	
+	<div class="nav">
+		<ul>
+			<li><a href="AboutMe.html">About Me</a></li>
+			<li><a href="Interests.html">Interests</a></li>
+			<li><a href="LARAGAN_RESUME_ITAD.html">Resume</a></li>
+			<li><a href="Gallery.html">Gallery</a></li>
+			<li><a href="MyBeat.html">My Beat</a></li>
+			<li><a href="MyFilm.html">My Film</a></li>
+			<li><a href="MyBucketList.html">My Bucket List</a></li>
+			<li><a href="travel.html">Travel</a></li>
+		</ul>
+	</div>
+	<br><br><br><br>
+	
+		<img src="../images/lianne.png" width="250" height="400" hspace = "100" align = "left">
+	<h1>Get to know me just by clicking any section on top!</h1>
+	
+	
+	
+</body>
+</html>
+

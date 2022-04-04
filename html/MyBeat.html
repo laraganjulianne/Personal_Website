@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content= "Julianne Laragan">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel = "icon" href ="../images/music.jpg"
+        type = "image/x-icon">
+    <title>My Beat</title>
+	<style>
+		body {
+			background-image: url(../images/background.jpg);
+            background-repeat: no-repeat;
+            background-size: cover; 
+            background-attachment: fixed;
+		}
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+		
+		html {
+			font-size: 62.5%;
+		}
+		
+		.container .heading {
+			font-size: 50px;
+			background: #462f75;
+			padding: 10px 0;
+			text-align: center;
+			font-family: Helvetica, Verdana, Sans-serif;
+			text-shadow: 5px 5px 10px #f0afde;
+			color: #e8518e;
+		}
+		.music_container .category {
+			font-size: 35px;
+			padding: 15px ;
+			text-align: center;
+			font-family: Verdana, Helvetica, Sans-serif;
+			text-shadow: 5px 10px 10px #dacfe8;
+			color: #ddd1ed;
+			margin-top:10px;
+		}
+		.container .music_container {
+			display: flex;
+			align-items: center;
+			flex-flow: column;
+		}
+		.container .music_container .box {
+			height: 16rem;
+			width: 80%;
+			display: flex;
+			align-items: center;
+			background: #c2addb;
+			border-radius:1rem;
+			box-shadow: 0 .5rem 1rem #000;
+			overflow: hidden;
+			margin: 2rem;
+		}
+		.container .music_container .box .artist {
+			font-family: Helvetica, Verdana, Sans-serif;
+			font-size: 20px;
+			padding:5px;
+			text-align: center;
+		}
+		.container .music_container .box .image {
+			height: 100%;
+			width: 25%;
+		}
+		.container .music_container .box .image img {
+			height: 100%;
+			width: 100%;
+		}
+		.container .music_container .box .music {
+			width: 75%;
+		}
+		.container .music_container .box .music audio{
+			width: 100%;
+			outline: none;
+		}
+		.container .music_container .box .music audio::-webkit-media-controls-enclosure{
+			background: none;
+		}
+		h3 {
+			color: #f9f0fa;
+			font-size: 30px;
+			border: 10px solid;
+			width: 20%;
+			text-align: center;
+			background-color: #f9f0fa;
+			margin-left: 550px;
+			border-radius: 20px;
+		}
+	</style>
+</head>
+
+<body>
+	<link rel="stylesheet" type="text/css">
+	<!--LARAGAN,JULIANNE GAYLE-->
+	<!--03/29/22-->
+	
+	<div class="container">
+
+	<div class="heading"><b>My Beat</b></div>
+	
+	<div class="music_container">
+	<div class="category">Rhythm and Blues/Pop</div>
+	<div class="box">
+		<div class="artist"><b>"Pano"</b> By Zack Tabudlo</div>
+		<div class="image">
+			<img src="../images/zack.jpg" alt="Zack Tabudlo">
+		</div>
+		<div class="music">
+			<audio src="../media/pano.mp3" controls></audio>
+		</div>
+	</div>
+	<div class="category">KPOP</div>
+	<div class="box">
+		<div class="artist"><b>"Butter"</b> By BTS</div>
+		<div class="image">
+			<img src="../images/bts.jpg" alt="Bangtan Sonyeondan">
+		</div>
+		<div class="music">
+			<audio src="../media/butter.mp3" controls></audio>
+		</div>
+	</div>
+	<div class="category">Rock</div>
+	<div class="box">
+		<div class="artist"><b>"Bohemian Rhapsody"</b> by Queen</div>
+		<div class="image">
+			<img src="../images/queen.jpg" alt="Queen">
+		</div>
+		<div class="music">
+			<audio src="../media/bohemian.mp3" controls></audio>
+		</div>
+	</div>
+	</div>
+	<br><br><br>
+	<h3><a href="../html/LandingPage.html">Go back to home</a></h3>
+	<br><br>
+</body>
+</html>

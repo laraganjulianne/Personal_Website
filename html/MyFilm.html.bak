@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content= "Julianne Laragan">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel = "icon" href ="../images/videologo.jpg"
+        type = "image/x-icon">
+    <title>My Film</title>
+	<style>
+		body {
+			background-image: url(../images/background2.jpg);
+            background-repeat: no-repeat;
+            background-size: cover; 
+            background-attachment: fixed;
+		}
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+		
+		html {
+			font-size: 62.5%;
+		}
+		
+		.container .heading {
+			font-size: 50px;
+			padding: 10px 0;
+			text-align: center;
+			font-family: Verdana, Sans-serif;
+			text-shadow: 5px 5px 10px #d0d6d6;
+			color: #f2f7f7;
+		}
+		.container .video_box {
+			margin-top: 10px;
+			display: flex;
+			align-items: center;
+			padding: 10px;
+			flex-flow: column;
+			background: #9d9e9e;
+			border-radius:1rem;
+			box-shadow: 5px 5px 10px 10px #fafafa;
+			overflow: hidden;
+			width: 75%;
+			margin-left: 170px;
+		}
+		.container .video_box video {
+			width: 650px;
+			height: 400px;
+			position: relative;
+			border-radius: 6px;
+			overflow: hidden;	
+		}
+		.container .video_box .desc {
+			padding: 10px;
+			font-size: 20px;
+			font-family: Verdana, Helvetica, Sans-serif;
+		}
+		.container .video_box .category {
+			font-size: 20px;
+			font-family: Verdana, Helvetica, Sans-serif;
+			padding:0px;
+			color: #38393b;
+			text-shadow: 5px 5px 10px #d9d9d9;
+		}
+		p {
+			font-size: 15px;
+			text-align: center;
+		}
+		h3 {
+			color: #f9f0fa;
+			font-size: 30px;
+			border: 10px solid;
+			width: 20%;
+			text-align: center;
+			background-color: #f9f0fa;
+			margin-left: 550px;
+			border-radius: 20px;
+			
+		}
+		
+	</style>
+</head>
+
+<body>
+	<link rel="stylesheet" type="text/css">
+	<!--LARAGAN,JULIANNE GAYLE-->
+	<!--03/29/22-->
+	
+	<div class="container">
+	<div class="heading"><b>My Film</b></div>
+	<div class="video_box">
+		<div class="category"><b>TV Shows</b></div>
+		<video controls>
+			<source src="../media/love.mp4" type="video/mp4">
+		</video>
+			<div class="desc">"A Love So Beautiful"</div>
+			<p>The ups and downs of school, family and growing up test the affection between a budding artist 
+			and her handsome but indifferent classmate and neighbor.</p>
+		<video controls>
+			<source src="../media/squid.mp4" type="video/mp4">
+		</video>
+		<div class="desc">"Squid Game"</div>
+			<p>Hundreds of cash-strapped players accept a strange invitation to compete in children's games. 
+			Inside, a tempting prize awaits — with deadly high stakes.</p>
+	</div>
+	
+	<div class="container">
+
+	<div class="video_box">
+		<div class="category"><b>Movies</b></div>
+		<video controls>
+			<source src="../media/thenotebook.mp4" type="video/mp4">
+		</video>
+			<div class="desc">"The Notebook"</div>
+			<p>A poor yet passionate young man falls in love with a rich young woman, giving her a sense of 
+			freedom, but they are soon separated because of their social differences.</p>
+		<video controls>
+			<source src="../media/thevow.mp4" type="video/mp4">
+		</video>
+		<div class="desc">"The Vow"</div>
+			<p>A well-behaved, tenderhearted love story about impossibly nice people. It's not even about 
+			whether they'll get married. They've been happily married for four years. The problem is, she 
+			can't remember them. She can't even remember her husband.</p>
+	</div>
+	<br><br><br>
+	<h3><a href="../html/LandingPage.html">Go back to home</a></h3>
+	<br><br>
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Vigan</title>
+	<style type="text/css">
+		body{
+			background-color: #b39466;
+			margin: 60px;
+		}
+		h1 {
+			text-align: center;
+			text-shadow:5px 5px 7px #cfbc9f;
+		}
+		p {
+			font-family:Verdana;
+			font-size:20px;
+			color:#695434;
+			margin-left: 70px;
+			margin-right: 70px;
+			text-align: justify;
+		}
+		img {
+			height: 400px;
+			width: 600px;
+		}
+		h3 {
+			color: #f9f0fa;
+			font-size: 30px;
+			border: 10px solid;
+			width: 20%;
+			text-align: center;
+			background-color: #f9f0fa;
+			margin-left: 550px;
+			border-radius: 20px;
+		}
+	</style>
+</head>
+<body>
+	<link rel="stylesheet" type="text/css">
+	<!--LARAGAN, JULIANNE GAYLE-->
+	<!--04/04/22-->
+	<h1>Vigan</h1>
+	<div align="center">
+		<img src="../images/vigan.jpg" alt="Vigan" >
+	</div>
+	<p></blockquote>Vigan is an island, which used to be detached from the mainland by three rivers – the great Abra River, 
+	the Mestizo River and the Govantes River. It is unique among the Philippine towns because it is the country’s most 
+	extensive and only surviving historic city that dates back to the 16th century Spanish colonial period. Vigan was an important 
+	coastal trading post in pre-colonial times. Long before the Spanish galleons, Chinese junks sailing from the South China Sea came 
+	to Isla de Bigan through the Mestizo River that surrounded the island. On board were sea-faring merchants that came to barter exotic 
+	goods from Asian kingdoms in exchange for gold, beeswax and other mountain products brought down by natives from the Cordilleras. 
+	Immigrants, mostly Chinese, settled in Vigan, intermarried with the natives and started the multi-cultural bloodline of the Bigueños. </p></blockquote>
+	<br><br>
+	<h3><a href="travel.html">Go back</a></h3>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Inflatable Island</title>
+	<style type="text/css">
+		body{
+			text-align:center;
+			color:#e890e2;
+			font-family:Verdana;
+			font-size:20px;
+			background-color: #dbd1de;
+			margin: 60px;
+		}
+		p {
+			color: #7d4671;
+		}
+		img {
+			height: 400px;
+			width: 600px;
+		}
+		h3 {
+			color: #f9f0fa;
+			font-size: 30px;
+			border: 10px solid;
+			width: 20%;
+			text-align: center;
+			background-color: #f9f0fa;
+			margin-left: 550px;
+			border-radius: 20px;
+		}
+	</style>
+</head>
+<body>
+	<link rel="stylesheet" type="text/css">
+	<!--LARAGAN, JULIANNE GAYLE-->
+	<!--03/22/22-->
+	<h1>Inflatable Islands</h1>
+	<div align="center">
+		<img src="../images/Inflatable.jpg" alt="Inflatable" >
+	</div>
+	<p></blockquote>The first of its kind in the Philippines, Inflatable Island holds the reputation of being the biggest 
+	and wildest inflatable playground in all of Asia! This floating beachside course covers an area of 3,400sqm - that's 
+	around 8 basketball courts put together! - and is scattered with slides, towers, bridges, human launchers, swings, and more. 
+	Adrenaline junkies would definitely have the time of their lives climbing, jumping, rolling, and wobbling around the giant playground.</p></blockquote>
+	<br><br>
+	<h3><a href="travel.html">Go back</a></h3>
+</body>
+</html>

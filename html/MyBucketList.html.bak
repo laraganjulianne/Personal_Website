@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="author" content= "Julianne Laragan">
+	<link rel = "icon" href ="../images/notebook.jpg" type = "image/x-icon">
+	<title>My Bucket List</title>
+	<style type="text/css">
+		body {
+			background-image: url(../images/bucketbackground.jpg);
+            background-repeat: no-repeat;
+            background-size: cover; 
+            background-attachment: fixed;
+			margin: 0;
+			padding:0;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			min-height: 100vh;
+		}
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+			font-family: Verdana, Helvetica, San-serif;
+		}
+		h1 {
+			font-size: 45px;
+			font-family: Verdana, Helvetica, San-serif;
+			text-align: center;
+			color:#ccc;
+			word-spacing:30px;
+			text-shadow:5px 5px 7px #5e2353;
+		}
+		.list {
+			position: relative;
+			width: 500px;
+		}
+		.list h2 {
+			background: #ebba71;
+			color: #fff;
+			padding: 10px 20px;
+		}
+		.list ul {
+			position:relative;
+			padding: 25px;
+			background: #fff;
+		}
+		.list ul li {
+			position: relative;
+			list-style: none;
+			padding: 15px 0;
+			border-bottom: 1.5px solid #162421;
+		}
+		.list ul li:last-child {
+			border-bottom: none;
+		}
+		.list ul li label {
+			position:  relative;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			cursor: crosshair;
+		}
+		p {
+			font-size: 18px;
+			position: absolute;
+			padding-left: 20px;
+			padding-right: 20px;
+			letter-spacing: 3px;
+		}
+		.list ul li label input {
+			visibility: hidden;
+			appearance: none;
+		}
+		.list ul li label span {
+			position: relative;
+			width: 20px;
+			height: 20px;
+			border: 2px solid #110f12;
+			border-radius: 50%;
+			display: flex;
+			justify-content: center;
+			align-items:center;
+		}
+		.list ul li label span:before {
+			content: '';
+			position: absolute;
+			top: 5px;
+			width: 10px;
+			height: 5px;
+			border-left: 2px solid #110f12;
+			border-bottom: 2px solid #110f12;
+			transform: rotate(-40deg);
+		}
+		.list ul li label input:checked ~ p {
+			text-decoration: line-through;
+			color: #f059d4;
+		}
+		.list ul li label input:checked ~ span {
+			background: #f059d4;
+			border: 1px solid #2b3459;
+		}
+		.list ul li label input:checked ~ span::before {
+			border-left: 2px solid #03a9f4;
+			border-bottom: 2px solid #03a9f4;
+		}
+		h3 {
+			color: #f9f0fa;
+			font-size: 25px;
+			border: 10px solid;
+			width: 70%;
+			text-align: center;
+			background-color: #f9f0fa;
+			border-radius: 20px;
+			margin-left: 50px;
+		}
+		audio {
+			margin: 70px;
+		}
+		
+	</style>
+</head>
+<body>
+	<link rel="stylesheet" type="text/css">
+	<!--LARAGAN,JULIANNE GAYLE-->
+	<!--04/4/22-->
+	
+	
+	<div class="list">
+		<h1>My Bucket List</h1>
+		<ul>
+			<li>
+				<label>
+					<input type="checkbox" name="">
+					<p>Attend Leni-Kiko rallies</p>
+					<span></span>
+				</label>
+			</li>
+			<li>
+				<label>
+					<input type="checkbox" name="">
+					<p>Watch PVL games live</p>
+					<span></span>
+				</label>
+			</li>
+			<li>
+				<label>
+					<input type="checkbox" name="">
+					<p>Invest and make profit</p>
+					<span></span>
+				</label>
+			</li>
+			<li>
+				<label>
+					<input type="checkbox" name="">
+					<p>Graduate college</p>
+					<span></span>
+				</label>
+			</li>
+			<li>
+				<label>
+					<input type="checkbox" name="">
+					<p>Wear girly clothes</p>
+					<span></span>
+				</label>
+			</li>
+			<li>
+				<label>
+					<input type="checkbox" name="">
+					<p>Outing/Travel with friends</p>
+					<span></span>
+				</label>
+			</li>
+			<li>
+				<label>
+					<input type="checkbox" name="">
+					<p>Reach 100lbs and maintain</p>
+					<span></span>
+				</label>
+			</li>
+			<li>
+				<label>
+					<input type="checkbox" name="">
+					<p>Travel around the world</p>
+					<span></span>
+				</label>
+			</li>
+			<li>
+				<label>
+					<input type="checkbox" name="">
+					<p>Get driver's license</p>
+					<span></span>
+				</label>
+			</li>
+			<li>
+				<label>
+					<input type="checkbox" name="">
+					<p>Buy own car</p>
+					<span></span>
+				</label>
+			</li>
+			<li>
+				<label>
+					<input type="checkbox" name="">
+					<p>Convert a BBM supporter into a Leni supporter</p>
+					<span></span>
+				</label>
+			</li>
+			<li>
+				<label>
+					<input type="checkbox" name="">
+					<p>Go back to playing my sport</p>
+					<span></span>
+				</label>
+			</li>
+			<li>
+				<label>
+					<input type="checkbox" name="">
+					<p>Camping with friends</p>
+					<span></span>
+				</label>
+			</li>
+			<li>
+				<label>
+					<input type="checkbox" name="">
+					<p>Ride all rides at an amusement park</p>
+					<span></span>
+				</label>
+			</li>
+			<li>
+				<label>
+					<input type="checkbox" name="">
+					<p>Eat 5 whole rice in a rice-all-you-can resto</p>
+					<span></span>
+				</label>
+			</li>
+			<li>
+				<label>
+					<input type="checkbox" name="">
+					<p>Master driving a manual car</p>
+					<span></span>
+				</label>
+			</li>
+			<li>
+				<label>
+					<input type="checkbox" name="">
+					<p>Sky dive</p>
+					<span></span>
+				</label>
+			</li>
+			<li>
+				<label>
+					<input type="checkbox" name="">
+					<p>Overcome a fear</p>
+					<span></span>
+				</label>
+			</li>
+			<li>
+				<label>
+					<input type="checkbox" name="">
+					<p>Get wasted</p>
+					<span></span>
+				</label>
+			</li>
+			<li>
+				<label>
+					<input type="checkbox" name="">
+					<p>Tie dye a shirt</p>
+					<span></span>
+				</label>
+			</li>
+		</ul>
+	<br>
+	<audio src="../media/anl.mp3"  controls></audio>
+	<br>
+	<h3><a href="../html/LandingPage.html">Go back to home</a></h3>
+	
+</body>
+</html>
+
